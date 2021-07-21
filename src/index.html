@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP Recetas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <!-- Aquí estará toda la aplicación -->
+        <main class="container inicial">
+            <h1 class="titulo">Busca tu receta<i class="fas fa-utensils"></i></h1>
+            <!-- Formulario de búsqueda -->
+            <form>
+                <input type="text" id="input" placeholder="Busca tu receta....">
+                <i class="fas fa-search"></i>
+            </form>
+            <!-- Resultados de la búsqueda -->
+            <div class="resultado-busqueda" id="resultado-busqueda">
+                <!-- Resultados -->
+                <!-- <div class="item">
+                    <img src="./img/calabacin.jpg" alt="">
+                    <div class="flex-container">
+                        <h2>Pollo</h2>
+                        <a href="#" class="btn-receta">Ver receta</a>
+                    </div>
+                    <p class="datos-receta">Calorias: 1024 kCal</p>
+                    <p class="datos-receta">Ideal para dietas bajas en grasa</p>
+                    <p class="datos-receta">Cena/Desayuno</p>
+                </div>
+                <div class="item">
+                    <img src="./img/calabacin.jpg" alt="">
+                    <div class="flex-container">
+                        <h2>Pollo</h2>
+                        <a href="#" class="btn-receta">Ver receta</a>
+                    </div>
+                    <p class="datos-receta">Calorias: 1024 kCal</p>
+                    <p class="datos-receta">Ideal para dietas bajas en grasa</p>
+                    <p class="datos-receta">Cena/Desayuno</p>
+                </div>
+                <div class="item">
+                    <img src="./img/calabacin.jpg" alt="">
+                    <div class="flex-container">
+                        <h2>Pollo</h2>
+                        <a href="#" class="btn-receta">Ver receta</a>
+                    </div>
+                    <p class="datos-receta">Calorias: 1024 kCal</p>
+                    <p class="datos-receta">Ideal para dietas bajas en grasa</p>
+                    <p class="datos-receta">Cena/Desayuno</p>
+                </div>
+                <div class="item">
+                    <img src="./img/calabacin.jpg" alt="">
+                    <div class="flex-container">
+                        <h2>Pollo</h2>
+                        <a href="#" class="btn-receta">Ver receta</a>
+                    </div>
+                    <p class="datos-receta">Calorias: 1024 kCal</p>
+                    <p class="datos-receta">Ideal para dietas bajas en grasa</p>
+                    <p class="datos-receta">Cena/Desayuno</p>
+                </div>
+                <div class="item">
+                    <img src="./img/calabacin.jpg" alt="">
+                    <div class="flex-container">
+                        <h2>Pollo</h2>
+                        <a href="#" class="btn-receta">Ver receta</a>
+                    </div>
+                    <p class="datos-receta">Calorias: 1024 kCal</p>
+                    <p class="datos-receta">Ideal para dietas bajas en grasa</p>
+                    <p class="datos-receta">Cena/Desayuno</p>
+                </div> -->
+            </div>
+        </main>
+        <!-- Aquí estará la paginación -->
+        <footer>
+            <div class="paginacion hidden" id="paginacion">
+                <a href="#" class="btn-pag" id="btn-start"><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="btn-pag" id="btn-prev"><i class="fas fa-chevron-left"></i> Anterior</a>
+                    <span id="pagina"></span> 
+                <a href="#" class="btn-pag" id="btn-next">Siguiente <i class="fas fa-chevron-right"></i></a>
+                <a href="#" class="btn-pag" id="btn-end"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
